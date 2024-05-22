@@ -1,0 +1,35 @@
+h1:hover{
+    color: red;
+}
+a:active{
+    background-color: blue;
+}
+input:focus{
+    background-color: orange;
+}
+
+.stripes > *{
+    color: white;
+    background-color: navy;
+}
+.stripes :nth-child(2){
+    color: black;
+    background-color: yellow;
+
+}
+.stripes :nth-child(6){
+    color: black;
+    background-color: yellow;
+}
+.stripes :nth-child(10){
+    color: black;
+    background-color: yellow;
+}
+
+/* 
+    .stripes :nth-child(2)
+    .stripes :nth-child(4)
+    .stripes :nth-child(6)
+    => .stripes :nth-child(4n+2)
+    로 바꿔도 됨
+*/
