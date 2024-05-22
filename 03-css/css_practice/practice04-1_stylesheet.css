@@ -1,0 +1,28 @@
+h3:hover{
+    color: white;
+    background-color: black;
+}
+#textarea{
+    width: 400px;
+    height: 200px;
+}
+#textarea:focus{
+    background-color: pink;
+    
+}
+input[type="checkbox"]#red:checked + label{
+    background-color: red;
+    color: white;
+}
+input[type="checkbox"]#blue:checked + label{
+    background-color: blue;
+    color: white;
+}
+input[type="checkbox"]#yellow:checked + label{
+    background-color: yellow;
+}
+button[type="submit"]:active{
+    background-color: gray;
+    color: #f96666;
+}
+
