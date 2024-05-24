@@ -1,0 +1,97 @@
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;    
+    overflow: scroll;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.transition:hover{
+    transform: scale(3);
+    transition-delay: 0.5s;
+    transition: transform 1s;
+}
+/* ======================================== */
+.skybox{
+    margin-top: 200px;
+    margin-bottom: 300px;
+    height: 500px;
+    width: 1000px;
+    background-color: rgb(171, 171, 171);
+    position: relative;
+
+}
+.sky{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    transform: skewY(30deg);
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.sky1{
+    left: 150px;
+    top: 140px;
+    z-index: 4;
+
+}
+.sky2{
+    left: 350px;
+    top: 120px; 
+    z-index: 3;   
+}
+.sky3{
+    left: 550px;
+    top: 100px;
+    z-index: 2;    
+}
+.sky1:hover{
+    transform: skewY(0deg);
+    z-index: 10;
+    transition-duration: 1s;;
+    
+}
+.sky2:hover{
+    transform: skewY(0deg);
+    z-index: 10;
+    transition-duration: 1s;
+}
+.sky3:hover{
+    transform: skewY(0deg);
+    z-index: 10;
+    transition-duration: 1s;
+}
+/* ====================================== */
+.squarebox{
+    margin-top: 500px;
+    margin-left: 100px;
+    margin-bottom: 500px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 3px solid black;
+    transition: all 1s ;
+}
+.square1:hover{
+    width: 200px;
+}
+.square2:hover{
+    transform: skewX(-20deg);
+    translate: 20px
+}
+.square3:hover{
+    transform: translate(400px,0) rotate(0.5turn);
+    transition: all 3s;
+    border-radius: 50%;
+    background-color: red;
+}
+.square4:hover{
+    transform: rotateY(1turn) scale(2) ;
+    background-color: yellow;
+
+}
