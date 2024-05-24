@@ -36,3 +36,142 @@ h1{
 #noonnu{
     font-family: 'TTHakgyoansimMabeopsaR';
 }
+#hello{
+    height: 200px;
+    color: aquamarine;
+    background-color: pink;
+    
+    /* 배경 그라데이션 */
+    /* background: linear-gradient(blue,pink); */
+    /* background: linear-gradient(to right, blue, pink); */
+    background: linear-gradient(190deg, blue, pink);
+
+    /* 폰트 크기 */
+    font-size: 50px;
+    /* font-size: 16px; => 기본 폰트 크기 */
+
+    /* 
+        폰트 굵기
+        - lighter, normal, bold, bolder
+        - 100 ~ 900
+    */
+    font-weight: 100;
+
+    /* 
+        폰트 모양
+        - normal, italic, oblique
+    */
+    font-style: oblique 120deg;
+
+    /* 
+        정렬
+        - center, left, right, justify(양쪽정렬)
+    */
+    text-align: center;
+
+    /* 
+        글자선
+        - underline, line-through, overline, none
+    */
+    text-decoration: line-through;
+
+    /* 
+        줄 높이
+        - px, 1.2(default)
+    */
+    line-height: 4;
+    
+    /* ====================================== */
+
+
+    /* 
+        크기
+        - min-width, width, min-height, max-width, max-height
+    */
+    
+    /* 
+        테두리
+        - border-style: solid;
+        - border-width: 4px;
+        - border-color: limegreen;    
+    */
+    
+    /*    
+        테두리 단축 프로퍼티
+        border: [border-width] [border-style] [border-color];
+    */
+    border : 4px solid limegreen;
+    
+    /* 
+        한쪽 테두리만
+        - border-top, border-bottom, border-right, border-left
+    */
+    border-top: 5px solid red;
+
+    /* 모서리 둥글기 */
+    /* border-radius: 20%; */
+
+    /* 4방향 다 다르게 주기 */
+    /* border-radius: 10px 20px 0 30%; */
+
+    /* 원 만들 땐 50% 주기 */
+    /* border-radius: 50%; */
+
+    /* ======================================= */
+
+    /* 
+        여백
+        padding-top, padding-bottom, padding-left, padding-right
+        margin-top, margin-bottom, margin-left, margin-right 
+        
+        margin: 50px;
+        padding:20px;
+
+
+        여백 단축 형식
+        margin: 10px;
+        상 하 좌 우 모두  10px
+
+        margin: 10px 50px;
+        상하 10px 좌우 50px
+
+        margin: 10px 20px 30px 40px;
+        상10px 우20px 하30px 좌40px (시계방향)
+
+    */
+}
+
+   /* 배경 이미지 속성 */
+#backgroundImg{
+    
+    background-color:coral;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: repeat; /*default 값*/
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+    /* 
+        배경 이미지 위치
+        background-position: center;
+        background-position: 50px; => 왼쪽부터 50px
+    */
+
+    /* 배경 이미지 크기 */
+    /* 이미지의 실제 크기 */
+    background-size: auto;
+    /* background-size: 30px; */
+
+    /* 비율 유지 - 요소의 더 넓은 너비에 맞춤. */
+    background-size: cover;
+    /* 비율 유지 - 요소의 더 짧은 너비에 맞춤. */
+    background-size: contain;
+
+
+    /* 배경 이미지 스크롤 특성 */
+    /* background-attachment: scroll; */
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+
+
+}
