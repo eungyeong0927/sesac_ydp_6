@@ -8,7 +8,6 @@ const port = process.env.PORT || 5000;
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
-
 dotenv.config({
     path: path.resolve(__dirname, ".env"),
 });
